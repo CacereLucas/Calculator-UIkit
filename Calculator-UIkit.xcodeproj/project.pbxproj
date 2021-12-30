@@ -13,6 +13,7 @@
 		A0BD1112277DE47700E88705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BD1110277DE47700E88705 /* Main.storyboard */; };
 		A0BD1114277DE47900E88705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BD1113277DE47900E88705 /* Assets.xcassets */; };
 		A0BD1117277DE47900E88705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BD1115277DE47900E88705 /* LaunchScreen.storyboard */; };
+		A0BD1122277DE52600E88705 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD1121277DE52600E88705 /* CalculatorLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A0BD1113277DE47900E88705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0BD1116277DE47900E88705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0BD1118277DE47900E88705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BD1121277DE52600E88705 /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		A0BD1109277DE47700E88705 /* Calculator-UIkit */ = {
 			isa = PBXGroup;
 			children = (
+				A0BD111E277DE4D200E88705 /* Model */,
+				A0BD111F277DE4D800E88705 /* View */,
+				A0BD1120277DE4E000E88705 /* Control */,
 				A0BD110A277DE47700E88705 /* AppDelegate.swift */,
 				A0BD110C277DE47700E88705 /* SceneDelegate.swift */,
-				A0BD110E277DE47700E88705 /* ViewController.swift */,
-				A0BD1110277DE47700E88705 /* Main.storyboard */,
 				A0BD1113277DE47900E88705 /* Assets.xcassets */,
 				A0BD1115277DE47900E88705 /* LaunchScreen.storyboard */,
 				A0BD1118277DE47900E88705 /* Info.plist */,
 			);
 			path = "Calculator-UIkit";
+			sourceTree = "<group>";
+		};
+		A0BD111E277DE4D200E88705 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0BD1121277DE52600E88705 /* CalculatorLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0BD111F277DE4D800E88705 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0BD1110277DE47700E88705 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0BD1120277DE4E000E88705 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				A0BD110E277DE47700E88705 /* ViewController.swift */,
+			);
+			path = Control;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0BD1122277DE52600E88705 /* CalculatorLogic.swift in Sources */,
 				A0BD110F277DE47700E88705 /* ViewController.swift in Sources */,
 				A0BD110B277DE47700E88705 /* AppDelegate.swift in Sources */,
 				A0BD110D277DE47700E88705 /* SceneDelegate.swift in Sources */,
